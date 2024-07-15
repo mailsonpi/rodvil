@@ -152,12 +152,16 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));
   gap: 2.4rem;
 }
+
 .sales .box {
   padding: 20px;
   background: #043071;
-  box-shadow: var(--box-shadow);
+  cursor: default;
   text-align: center;
   border-radius: 2rem;
+  -webkit-box-shadow: 10px 10px 26px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 26px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 26px -8px rgba(0,0,0,0.75);
 }
 .sales .box:hover
  {
@@ -180,7 +184,6 @@ header {
 .sales .box p {
   font-size: 00.938rem;
   color: white;
-  text-align: justify;
 }
 /* Properties */
 .heading {
